@@ -1,0 +1,128 @@
+body {
+  padding: 50px;
+  background-color: #d8dea7;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+label{
+  margin-right: 30px;
+  font-weight: bold;
+  margin-left: -10px;
+}
+input[type=text], input[type=password], input[type=tel], input[type=number],input[type=email], input[type=date],textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 10px 0px 32px -10px;  
+  display: inline-block;  
+  border: 1px solid #000;
+  background: #ffffff;  
+}  
+input[type=text]:focus, input[type=password]:focus, input[type=tel]:focus, input[type=number]:focus, input[type=email]:focus, input[type=date] {  
+  background-color: rgb(255, 255, 255);  
+  outline: none;  
+}  
+#reg{
+  background-color: #ffffff;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  margin-bottom: 0px;
+  padding: 20px;
+  width: fit-content;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#reg1{
+  background-color: #ffffff;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  margin-bottom: 0px;
+  width: fit-content;
+  padding-bottom: 50px;
+}
+nav {
+  position: absolute;
+  margin: 0px;
+
+}
+nav ul{
+margin: 0px;
+padding: 0px;
+font-family: 'Roboto Mono', monospace;
+color:#053e1b;
+}
+nav ul li {
+/* This allow us to arrange list items in a row, without using float */
+
+text-decoration: underline;
+display: inline-block;
+list-style-type: none;
+}
+#a{
+width: 100%;
+height: 600px;
+background-color: #053e1b;
+}
+
+/* Create a style for the first level items */
+nav > ul > li > a {
+color: #053e1b;
+background-color: transparent;
+display: block;
+font-size: 20px;
+line-height: 2em;
+padding: 0.5em;
+margin-left: 20px;
+margin-right: 10px;
+text-decoration: none;
+}
+
+table{
+      
+  border-collapse: collapse;
+  margin-top: 10px;
+  width: 1000px;
+  background-color: #ffffff;
+}
+th{
+  font-size: 22px;
+}
+td{
+  font-size: 20px;
+}
+
+a{
+  font-family: 'Roboto Mono', monospace;
+  color: #053e1b;
+}
+.btn {  
+  background-color: #053e1b;  
+  color: white;  
+  padding: 12px 20px;  
+  margin: 18px 10px;  
+  margin-left: 130px;
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+}
+.btn1 {  
+  background-color: #053e1b;  
+  color: white;  
+  padding: 12px 20px;  
+  margin: 18px 10px;  
+  margin-left: 170px;
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+}
+.btn:hover,.btn1:hover {  
+  opacity: 1;  
+}  

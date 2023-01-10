@@ -1,0 +1,47 @@
+<%- include('header'); -%>
+<br><br>
+<link rel="stylesheet" href="../stylesheets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"> 
+<div id="reg">
+<h1>Edit User</h1>
+<form method="post">
+    <table>
+        <tr>
+            <td>Name : </td>
+            <td>
+                <input type="text" placeholder="Enter your Name" name="u_name" value="<%= users[0].UName %>" required> </td>
+        </tr>
+        <tr>
+            <td>Email :</td>
+            <td>
+                <input type="email" placeholder="Enter your Mail ID" name="u_mail" value="<%= users[0].UMail %>" required>
+            </td>
+        </tr>
+        <tr>
+            <td>Phone :</td>
+            <td>
+                <input type="tel" placeholder="Enter your Phone Number" name="u_phone" maxlength="10" value="<%= users[0].UPhone %>" required>
+            </td>
+        </tr>
+        <tr>
+            <td>Gender :</td>
+            <td>
+                <input type="text" placeholder="Enter your Gender" name="u_sex" maxlength="1" value="<%= users[0].USex %>" required>
+            </td>
+        </tr>
+        <tr>
+            <td>Age :</td>
+            <td>
+                <input type="number" placeholder="Enter your current Age" name="u_age" maxlength="3" value="<%= users[0].UAge %>" required>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <center>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="submit" class="btn" value="Update"></center>
+            </td>
+        </tr>
+    </table>
+</form>
+</div>
